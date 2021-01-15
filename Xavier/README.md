@@ -1,7 +1,7 @@
 # Resumen
 
-En este artículo discutiré la influencia de la tecnología en la emergencia de nuevas literacidades.
-Esás últimas se desprenden de affordances propios del software digital y el caracter *variable* de los contenidos digitales.
+En este artículo discutiré la influencia de la tecnología en la emergencia de nuevas literacidades y su potencial de emancipación social y creación de comunidad.
+Estas literacidades se desprenden de affordances propios del software digital y el caracter *variable* de los contenidos digitales.
 Entendiendo la creación como una mediación entre contenidos culturales propongo el hackeo del *mainstream* a través de prácticas de producción y composición musical críticas.
 
 ## Palabras Clave
