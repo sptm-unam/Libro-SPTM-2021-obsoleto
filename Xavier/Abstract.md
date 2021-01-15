@@ -9,9 +9,15 @@ Remix, Sampleo, Affordance, Literacidad, Nuevos Medios, Cultura Digital.
 
 ## Fuentes
 Attali 1977, *Ruido: La economía política de la música*
+
 Chang 2009, *Records That Play: The Present Past in Sampling Practice*
+
 Katz 2010, *Capturing Sound*
+
 Lotman 2003, *La semiótica de la cultura y el concepto de texto*
+
 Manovich 2001,*The Lenguage of New Media*
+
 Manovich 2013, *Software Takes Command*
+
 Navas 2012, *Remix Theory*
