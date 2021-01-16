@@ -2,10 +2,13 @@
 
 Repositorio para trabajar en el libro del Seminario Permanente de Tecnología Musical.
 
+En Windows y Mac es recomendable bajar el [GitHub Desktop](https://desktop.github.com/) para facilitar el manejo del repositorio a través de git vinculándolo con ATOM.
 
-A continuación un pequeño tutorial para que probemos como será colaborar usando git y GitHub.
+Para Windows se puede seguir este [tutorial](https://youtu.be/J_Clau1bYco) para usar git localmente mediante linea de comandos (*bash*) y comunicarlo con GitHub sin usar el GitHub Desktop o [este otro](https://youtu.be/ukJEPyKubzA) usando el Github Desktop.
+En estos tutoriales no se explora el uso de ATOM (que ya tiene integración con git y GitHub) ni el proceso de *fork* (crear un branch de un repositorio) ni pull-request (para fucionar o hacer *merge* a la rama principal o *master*).
 
-En Windows y Mac es recomendable bajar el [GitHub Desktop](https://desktop.github.com/) para facilitar el manejo del repositorio a través de git vinculándolo con ATOM. Los siguientes pasos no presuponen el uso de la aplicación de escritorio y deben funcionar para todos los sistema tipo UNIX (MacOS y Linux).
+A continuación un pequeño tutorial para que probemos como será colaborar usando git y GitHub. Los siguientes pasos no presuponen el uso de la aplicación de escritorio y deben funcionar para todos los sistema tipo UNIX (MacOS y Linux).
+
 
 1. Crear cuenta en GitHub y solicitar acceso al repositorio en el grupo de Telegram.
 2. [Instalar ATOM](https://flight-manual.atom.io/getting-started/sections/installing-atom/).
@@ -20,7 +23,7 @@ En Windows y Mac es recomendable bajar el [GitHub Desktop](https://desktop.githu
 5. En el menu de la barra inferior, a la derecha, click *branch* o *master* y click en *New Branch*.
 Nombrarla con el siguiente formato (propuesta de convención):
 `nombre-del-usuario/palabra-clave`. Por ejemplo `xavier/remix`.
-6. En la pestaña *Project* click-derecho en la carpeta del repo y elegir *New Folder* y ponerle su nombre.
+6. En la pestaña *Project* click-derecho en la carpeta correspondiente a su grupo temático y elegir *New Folder* y ponerle su nombre.
 Por ejemplo `xavier`.
 Click-derecho a la carpeta creada y elegir *New File* y llamarlo `README.md`.
 7. Doble click al nuevo archivo en la pestaña *Project* lo abrirá en una pestaña para añadir texto.
