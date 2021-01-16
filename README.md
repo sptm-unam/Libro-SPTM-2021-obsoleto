@@ -38,7 +38,7 @@ Para ver como queda el texto formateado entrén al menú superior *Packages*, el
 
 12. Una vez terminado el proceso de subida podrán ver el archivo que han creado yendo al [repositorio](https://github.com/ninioArtillero/Libro---Seminario-Perm.-de-Tec.-Musical) y eligiendo el nombre de su *branch* en el menú desplegable que dice *master*
 
-Un siguiente paso sería añadir a su carpeta un documento *Artículo.txt* de texto plano donde se empiece a componer su artículo. Al terminar de editar, después de salvar, seguir los pasos 9 y 10 hará que los cambios queden guardados en git localmente. Para "subir" estos cambios al repositorio en Github hay hacer click-derecho en el botón *Fetch* de la barra inferior y click en *Push*.
+Un siguiente paso sería añadir a su carpeta un documento *Artículo.txt* de texto plano donde se empiece a componer su artículo. Al terminar su sesión de trabajo, después de salvar, seguir los pasos 9 y 10 (poniendo un comentario al *commit* que describa sinteticamente los cambios realizados o añadiduras) hará que los cambios queden guardados en git localmente. Para "subir" estos cambios al repositorio en Github hay hacer click en el botón *Push* o, si no está, click-derecho *Fetch* de la barra inferior y click en *Push*.
 
 Lo que faltará discutir será explicar como usaremos el "pull request" para integrar el trabajo realizado en los *branches*. Cabe decir que es importante, mientrás afinamos el uso de esta herramienta y nos organizamos, sólo editar los documentos de sus carpetas.
 
