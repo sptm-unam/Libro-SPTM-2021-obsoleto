@@ -1,13 +1,15 @@
-# Propuesta:
+# Propuesta
 
 Repositorio para trabajar en el libro del Seminario Permanente de Tecnología Musical.
+
+## Tutorial de Git y GitHub
 
 En Windows y Mac es recomendable bajar el [GitHub Desktop](https://desktop.github.com/) para facilitar el manejo del repositorio a través de git vinculándolo con ATOM.
 
 Para Windows se puede seguir este [tutorial](https://youtu.be/J_Clau1bYco) para usar git localmente mediante linea de comandos (*bash*) y comunicarlo con GitHub sin usar el GitHub Desktop o [este otro](https://youtu.be/ukJEPyKubzA) usando el Github Desktop.
 En estos tutoriales no se explora el uso de ATOM (que ya tiene integración con git y GitHub) ni el proceso de *fork* (crear un branch de un repositorio) ni pull-request (para fucionar o hacer *merge* a la rama principal o *master*).
 
-A continuación un pequeño tutorial para que probemos como será colaborar usando git y GitHub. Los siguientes pasos no presuponen el uso de la aplicación de escritorio y deben funcionar para todos los sistema tipo UNIX (MacOS y Linux).
+A continuación un pequeño tutorial para dar los primeros pasos en git y GitHub. No se presupone el uso de la aplicación de escritorio y debe funcionar para todos los sistemas tipo UNIX (MacOS y Linux).
 
 
 1. Crear cuenta en GitHub y solicitar acceso al repositorio en el grupo de Telegram.
@@ -41,9 +43,19 @@ Para ver como queda el texto formateado entrén al menú superior *Packages*, el
 
 12. Una vez terminado el proceso de subida podrán ver el archivo que han creado yendo al [repositorio](https://github.com/ninioArtillero/Libro---Seminario-Perm.-de-Tec.-Musical) y eligiendo el nombre de su *branch* en el menú desplegable que dice *master*
 
-Un siguiente paso sería añadir a su carpeta un documento *Artículo.txt* de texto plano donde se empiece a componer su artículo. Al terminar su sesión de trabajo, después de salvar, seguir los pasos 9 y 10 (poniendo un comentario al *commit* que describa sinteticamente los cambios realizados o añadiduras) hará que los cambios queden guardados en git localmente. Para "subir" estos cambios al repositorio en Github hay hacer click en el botón *Push* o, si no está, click-derecho *Fetch* de la barra inferior y click en *Push*.
+Cada *branch* es un registro "histórico" que permite dar seguimiendo al desarrollo de un proyecto, documentando sus cambios. El *master* es un *branch* como cualquier otro, que por convención se usa como "centro". Mientras trabajen en un *branch* pueden hacer todas las modificaciones que quieran a cualquier documento del repo. Luego en GitHub se puede realizar un **PULL-REQUEST**, el cual permite revisar los cambios efectuados (comparando linea a linea) para posteriormente hacer un **MERGE**, esto es integrar los contenidos.
 
-Lo que faltará discutir será explicar como usaremos el "pull request" para integrar el trabajo realizado en los *branches*. Cabe decir que es importante, mientrás afinamos el uso de esta herramienta y nos organizamos, sólo editar los documentos de sus carpetas.
+## Siguientes pasos
+
+Añadir a su carpeta un documento *Artículo.txt* de texto plano donde se empiece a componer su artículo. Al terminar su **sesión de trabajo**, después de salvar, seguir los pasos 9 y 10 (poniendo un comentario al *commit* que describa sintéticamente los cambios realizados o añadiduras durante esa sesión de trabajo) hará que los cambios queden guardados en git localmente. Para "subir" estos cambios al repositorio en Github hay hacer click en el botón *Push* o, si no está, click-derecho *Fetch* de la barra inferior y click en *Push*.
+
+Es **importante** notar que los cambios serán enviados al *branch* en el que estén trabajado (indicado por su nombre en el menu que está abajo a la derecha en ATOM). Si cambian de *branch* posiblemente verán cambiar los contenidos de la carpeta del proyecto y/o el texto de los documentos (dependerá de las diferencias locales entre una y otra *branch*).
+
+Recuerden que esto es una **propuesta**. Aunque decidamos cambiar de herramienta y/o plataforma este tutorial y revisar las **referencias** de abajo puede permitirnos una desición más informada (y de perdida una introducción a esta herramienta ideosincrática del desarrollo de software).
+
+## Estructuración del flujo de trabajado
+
+Haciendo click en *Issues* debajo del título del repo verán algunos temas por resolver. De momento: características de este tutorial y el diseño del flujo de trabajo, es decir: la manera en que vamos a administrar el repo y coordinar el trabajo (cuyas últimas resoluciones se irán publicando en este mismo documento).
 
 ## Referencias
 
@@ -52,3 +64,7 @@ Lo que faltará discutir será explicar como usaremos el "pull request" para int
 [Colaboración con Git](https://medium.com/anne-kerrs-blog/using-git-and-github-for-team-collaboration-e761e7c00281)
 
 [Cheatsheet de Markdown (para dar formato a archivos con extensión .md)](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
+[Manual "Pro Git"](https://git-scm.com/book/en/v2)
+
+[Borrar *branches* locales y remotos (limpieza)](https://railsware.com/blog/git-housekeeping-tutorial-clean-up-outdated-branches-in-local-and-remote-repositories/)
