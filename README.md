@@ -59,6 +59,8 @@ Haciendo click en *Issues* debajo del título del repo verán algunos temas por 
 
 ## Referencias
 
+[GitHub Flow: Guía Básica](https://guides.github.com/introduction/flow/)
+
 [Usar Git para escritura](https://opensource.com/article/19/4/write-git)
 
 [Colaboración con Git](https://medium.com/anne-kerrs-blog/using-git-and-github-for-team-collaboration-e761e7c00281)
