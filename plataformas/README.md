@@ -5,7 +5,7 @@
 Diego, Emilia, Jorge David
 
 
-# La gestión de las prácticas experimentales con sonido en Latinoamérica: conectando a las comunidades digitales y la escena experimental 
+### La gestión de las prácticas experimentales con sonido en Latinoamérica: conectando a las comunidades digitales y la escena experimental 
  
 
 Cuando hablamos de música experimental puede que sea inevitable que referentes como John Cage o Pierre Schaeffer vengan a nuestra cabeza, pero cuando se trata de Latinoamérica buscar una definición estética similar para música experimental es una tarea difícil. En primer lugar, se trata de un territorio heterogéneo muy distinto de Europa y Estados Unidos que evidentemente no cuenta con el mismo bagaje cultural que los territorios antes citados. Por otro lado, en Latinoamérica parece que la palabra experimental en las artes no sólo tiene que ver con una postura estética, sino, además, con una postura política que entreteje las formas de operación y contacto dentro del ámbito de la gestión cultural hoy en día. En este artículo nos concentraremos en las comunidades digitales utilizadas para la difusión de proyectos artísticos que experimentan con sonido, hablaremos acerca de las distintas corrientes estéticas, de algunas problemáticas consecuentes de la era digital y del acontecer musical luego de la pandemia. 
