@@ -4,12 +4,12 @@ Repositorio para trabajar en el libro del Seminario Permanente de Tecnología Mu
 
 ## Tutorial de Git y GitHub
 
-En Windows y Mac es recomendable bajar el [GitHub Desktop](https://desktop.github.com/) para facilitar el manejo del repositorio a través de git vinculándolo con ATOM.
+En Windows y Mac es recomendable bajar el [GitHub Desktop](https://desktop.github.com/) para facilitar el manejo del repositorio a través de git vinculándolo con ATOM (o con el editor de texto de su preferencia).
 
 Para Windows se puede seguir este [tutorial](https://youtu.be/J_Clau1bYco) para usar git localmente mediante linea de comandos (*bash*) y comunicarlo con GitHub sin usar el GitHub Desktop o [este otro](https://youtu.be/ukJEPyKubzA) usando el Github Desktop.
-En estos tutoriales no se explora el uso de ATOM (que ya tiene integración con git y GitHub) ni el proceso de *fork* (crear un branch de un repositorio) ni pull-request (para fucionar o hacer *merge* a la rama principal o *master*).
+En estos tutoriales no se explora el uso de ATOM (que ya tiene integración con git y GitHub) ni el proceso de *fork* (crear un *branch* en un repositorio) ni *pull-request* (para fucionar o hacer *merge* a la rama principal o *master*).
 
-A continuación un pequeño tutorial para dar los primeros pasos en git y GitHub. No se presupone el uso de la aplicación de escritorio y debe funcionar para todos los sistemas tipo UNIX (MacOS y Linux).
+A continuación un pequeño tutorial para dar los primeros pasos en git y GitHub. No se presupone el uso de la aplicación de escritorio, pero sí de ATOM, y debe funcionar para todos los sistemas tipo UNIX (MacOS y Linux).
 
 
 1. Crear cuenta en GitHub y solicitar acceso al repositorio en el grupo de Telegram.
