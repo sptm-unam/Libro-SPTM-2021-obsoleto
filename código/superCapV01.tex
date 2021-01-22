@@ -1,0 +1,99 @@
+%Propuesta inicial de la formación del cap # Performatividad de la(s) máquina(s) + Código + IA + Live Coding + Agencialidad, Emilio, Aaron, Marianne, Hernani, Iván, Pablo, Dorian.
+
+%Hay algunos errores en el formato, esperamos que Emilio los corrija, please! 
+
+\documentclass[12pt, spanish, oneside]{book} %twocolumn
+\usepackage[spanish]{babel}
+\selectlanguage{spanish}
+\usepackage[utf8]{inputenc}
+\usepackage{minted} %para introducir codigo
+\usepackage{titlesec}% subsubsecciones
+\usepackage{hyperref}
+\usepackage{float} % Allows putting an [H] in \begin{figure} to specify the exact location of the figure
+\setcounter{secnumdepth}{4}
+\usepackage{mdwlist}
+\usepackage{natbib}
+\usepackage{bibentry}
+\nobibliography*
+\usepackage{geometry} % Required to change the page size to A4
+\geometry{
+	%paper=a4paper, % Change to letterpaper for US letter
+	inner=2cm, % Inner margin
+	outer=2cm, % Outer margin
+	bindingoffset=.5cm, % Binding offset
+	top=2.5cm, % Top margin
+	bottom=2.5cm, % Bottom margin
+	%showframe, % Uncomment to show how the type block is set on the page
+}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[LE,RO]{\thepage}
+%\fancyfoot[LO,RE]{User's Guide \copyright\ Copyright Information}
+\fancyhead[RE]{\sffamily\nouppercase{\rightmark}}
+\fancyhead[LO]{\sffamily\nouppercase{\leftmark}}
+\renewcommand{\headrulewidth}{0.1pt}
+
+%autor
+\author{Emilio, Aaron, Marianne, Hernani, Iván, Pablo, Dorian}
+
+%Interlineado
+\renewcommand{\baselinestretch}{1.2}
+
+%Para sangria
+\setlength{\parindent}{2em}
+
+%Para parrafos
+\setlength{\parskip}{0pt}
+
+%Para viudas y huerfanas
+\clubpenalty=10000
+\widowpenalty=10000
+
+%para imagenes
+\usepackage{graphicx}
+
+\title{Propuesta inicial de la formación del cap Performatividad de la(s) máquina(s) + Código + IA + Live Coding + Agencialidad + Composición algoritmica + Música generativa}  
+
+\begin{document}
+\maketitle
+
+%\frontmatter
+%\mainmatter
+
+%\tableofcontents % Print the table of contents
+
+
+
+%----------------------------------------------------------------------------------------
+\input{introduccion}
+%----------------------------------------------------------------------------------------
+%	CHAPTER
+%----------------------------------------------------------------------------------------
+\input{subCap1}
+%----------------------------------------------------------------------------------------
+%	CHAPTER
+%----------------------------------------------------------------------------------------
+\input{subCap2}
+%----------------------------------------------------------------------------------------
+%	CHAPTER
+%----------------------------------------------------------------------------------------
+\input{subCap3}
+%----------------------------------------------------------------------------------------
+%	CHAPTER
+%----------------------------------------------------------------------------------------
+\input{subCap4}
+%----------------------------------------------------------------------------------------
+%	CHAPTER
+%----------------------------------------------------------------------------------------
+\input{conclusiones}
+%	CHAPTER
+%----------------------------------------------------------------------------------------
+\input{anexos}
+%----------------------------------------------------------------------------------------
+
+\bibliographystyle{plainnat}
+
+\bibliography{biblio}
+
+\end{document}
