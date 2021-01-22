@@ -24,3 +24,15 @@ Evidentemente el mundo no será igual luego de la pandemia, algo que afecta dire
 (Estudio de caso)En este tema se exploran también espacios educativos alternativos e independientes que surgen directamente del interés y la necesidad de aprender para producir música. Colectivos que generan sus foros de discusión, ponencias, cursos, listas de reproducción y conciertos, que promueven y gestionan sus actividades en función de su propia comunidad. 
 
 (Conclusiones) Por último hace una reflexión y se sacan conclusiones sobre la labor del educador en materia de producción musical tomando en cuenta todo lo dicho anteriormente. Con todos estos recursos disponibles, con los cambios en los últimos años en la producción musical, ¿Cual es la labor   de un educador? ¿Cual es su relación con todos los entornos antes miencionados? ¿Como debe de afrontar la migración a los sistemas digitales? ¿Como responden o podrían responder los estudiantes , proyectos académicos e instituciones educativas ante todos estos cambios? 
+
+# Recreación de la creación sonora
+
+Este artículo parte de la experiencia que, como compositor, investigador y docente de diversas asignaturas relacionadas con la creación musical y sonora, he tenido a raíz de la pandemia de Covid 19, evento que ha obligado a las y los artistas, y más acotadamente a aquellos que trabajan con sonido, a replantear la forma en que producen, publican y conciben sus creaciones. De manera más puntual, en este texto se analizará el impacto que el confinamiento social y la crisis económica global han tenido en los campos de la música y el arte sonoro, en la medida en la que el cierre de espacios físicos (con todo lo que implica en términos de movilidad, pérdidas económicas, falta de equipo especializado, etc.) ha desembocado en la necesidad de generar un nuevo ecosistema digital en el que el arte se siga desarrollando.
+
+Si bien es cierto que la digitalización del arte sonoro/musical no es algo que haya nacido con el Covid19, la pandemia ha implicado una marcada acelaración y universalización de formas de producción basadas en las tecnologías digitales. Esto tiene importantes consecuencias en asuntos relacionados con los formatos de obra, los modos de distribución y financiamiento, así como con las redes interpersonales y los flujos de trabajo que, entre otras cosas, posibilitan procesos de colaboración que años atrás parecían inverosímiles. 
+
+Es importante mencionar que un eje metodológico de esta investigación es el trabajo de campo al interior de mi propia comunidad artística y educativa. Esto implica que la experiencia de mis colegas y mis alumnos, así como mi propias vivencias personales, constituyen quizás el pilar fundamental para los argumentos que en este escrito estaré proponiendo. 
+
+
+
+
