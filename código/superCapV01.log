@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.1.17)  21 JAN 2021 22:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.1.17)  21 JAN 2021 22:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -72,9 +72,8 @@ Package babel Info: Importing basic data for spanish
 Package: inputenc 2018/08/11 v1.3c Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
-)
-(/usr/share/texlive/texmf-dist/tex/latex/minted/minted.sty
-Package: minted 2017/07/19 v2.5 Yet another Pygments shim for LaTeX
+) (./minted.sty
+Package: minted 2017/09/03 v2.5.1dev Yet another Pygments shim for LaTeX
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
@@ -467,7 +466,7 @@ File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count290
 \l__pdf_internal_box=\box55
 )
-No file superCapV01.aux.
+(./superCapV01.aux)
 \openout1 = `superCapV01.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
@@ -488,6 +487,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 56.
 LaTeX Font Info:    ... okay on input line 56.
 \AtBeginShipoutBox=\box56
 Package hyperref Info: Link coloring OFF on input line 56.
+
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
@@ -502,6 +502,8 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 56.
 LaTeX Info: Redefining \pageref on input line 56.
 LaTeX Info: Redefining \nameref on input line 56.
+
+(./superCapV01.out) (./superCapV01.out)
 \@outlinefile=\write5
 \openout5 = `superCapV01.out'.
 
@@ -645,21 +647,14 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 97.
  (./superCapV01.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 97.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 97.
-
-
-Package rerunfilecheck Warning: File `superCapV01.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `superCapV01.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  9393920DFE170AEAA2B25EBF83281A0E;849.
+Package rerunfilecheck Info: File `superCapV01.out' has not changed.
+(rerunfilecheck)             Checksum: 9393920DFE170AEAA2B25EBF83281A0E;849.
  ) 
 Here is how much of TeX's memory you used:
- 10670 strings out of 483140
- 175242 string characters out of 5965151
- 505316 words of memory out of 5000000
- 25476 multiletter control sequences out of 15000+600000
+ 10692 strings out of 483140
+ 175406 string characters out of 5965151
+ 505511 words of memory out of 5000000
+ 25493 multiletter control sequences out of 15000+600000
  538406 words of font info for 44 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  41i,11n,45p,3019b,392s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -671,10 +666,10 @@ e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf
 nts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmssbx10.pfb>
-Output written on superCapV01.pdf (9 pages, 103064 bytes).
+Output written on superCapV01.pdf (9 pages, 103955 bytes).
 PDF statistics:
- 98 PDF objects out of 1000 (max. 8388607)
- 78 compressed objects within 1 object stream
+ 142 PDF objects out of 1000 (max. 8388607)
+ 121 compressed objects within 2 object streams
  24 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 113 words of extra memory for PDF output out of 10000 (max. 10000000)
 
