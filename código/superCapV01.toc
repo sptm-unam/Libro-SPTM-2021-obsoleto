@@ -1,0 +1,16 @@
+\babel@toc {spanish}{}
+\babel@toc {nil}{}
+\contentsline {chapter}{Introducción}{ii}{chapter*.2}%
+\contentsline {section}{\numberline {0.1}si necesitamos subsecciones}{ii}{section.0.1}%
+\contentsline {chapter}{Introducción}{iii}{chapter*.3}%
+\contentsline {section}{\numberline {0.2}si necesitamos subsecciones}{iii}{section.0.2}%
+\contentsline {chapter}{Introducción}{iv}{chapter*.4}%
+\contentsline {section}{\numberline {0.3}si necesitamos subsecciones}{iv}{section.0.3}%
+\contentsline {chapter}{Algo}{v}{chapter*.5}%
+\contentsline {section}{\numberline {0.4}Introducción}{v}{section.0.4}%
+\contentsline {chapter}{Introducción}{vi}{chapter*.6}%
+\contentsline {section}{\numberline {0.5}si necesitamos subsecciones}{vi}{section.0.5}%
+\contentsline {chapter}{Conclusiones}{vii}{chapter*.7}%
+\contentsline {section}{\numberline {0.6}si necesitamos subsecciones}{vii}{section.0.6}%
+\contentsline {chapter}{Introducción}{viii}{chapter*.8}%
+\contentsline {section}{\numberline {0.7}si necesitamos subsecciones}{viii}{section.0.7}%
