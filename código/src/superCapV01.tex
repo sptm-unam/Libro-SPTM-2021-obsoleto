@@ -1,0 +1,97 @@
+%Propuesta inicial de la formación del cap # Performatividad de la(s) máquina(s) + Código + IA + Live Coding + Agencialidad, Emilio, Aaron, Marianne, Hernani, Iván, Pablo, Dorian.
+
+%Hay algunos errores en el formato, esperamos que Emilio los corrija, please! 
+
+\documentclass[12pt, spanish, oneside]{book} %twocolumn
+
+\usepackage[spanish,activeacute]{babel}
+\selectlanguage{spanish}
+\usepackage[utf8]{inputenc}
+
+
+%\usepackage{minted} %para introducir codigo
+\usepackage{	}% subsubsecciones
+\usepackage{hyperref}
+\usepackage{float} % Allows putting an [H] in \begin{figure} to specify the exact location of the figure
+\setcounter{secnumdepth}{4}
+\usepackage{mdwlist}
+\usepackage{natbib}
+\usepackage{bibentry}
+\nobibliography*
+\usepackage{geometry} % Required to change the page size to A4
+\geometry{
+	%paper=a4paper, % Change to letterpaper for US letter
+	inner=2cm, % Inner margin
+	outer=2cm, % Outer margin
+	bindingoffset=.5cm, % Binding offset
+	top=2.5cm, % Top margin
+	bottom=2.5cm, % Bottom margin
+	%showframe, % Uncomment to show how the type block is set on the page
+}
+
+\usepackage{tikz} % para iteraciones
+\usepackage{xstring}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[LE,RO]{\thepage}
+%\fancyfoot[LO,RE]{User's Guide \copyright\ Copyright Information}
+\fancyhead[RE]{\sffamily\nouppercase{\rightmark}}
+\fancyhead[LO]{\sffamily\nouppercase{\leftmark}}
+\renewcommand{\headrulewidth}{0.1pt}
+
+%autor
+\author{Emilio, Aaron, Marianne, Hernani, Iván, Pablo, Dorian}
+
+%Interlineado
+\renewcommand{\baselinestretch}{1.2}
+
+%Para sangria
+\setlength{\parindent}{2em}
+
+%Para parrafos
+\setlength{\parskip}{0pt}
+
+%Para viudas y huerfanas
+\clubpenalty=10000
+\widowpenalty=10000
+
+%para imagenes
+\usepackage{graphicx}
+\title{Propuesta inicial de la formación del cap Performatividad de la(s) máquina(s) + Código + IA + Live Coding + Agencialidad + Composición algoritmica + Música generativa}  
+\graphicspath{ {./images/} } % path de imagenes
+\begin{document}
+\maketitle
+
+\maketitle
+\tableofcontents
+
+\input{sections/introduccion}
+
+% lee las secciones desde una carpeta y los incluye en orden numérico
+\foreach \k in {0, ...,99} {% chktex 11 chktex 1  chktex 26
+    \edef\FileName{./sections/subCap\k.tex}%     The % here are necessary to eliminate any
+    \IfFileExists{\FileName}{%  spurious spaces that may get inserted
+\input{\FileName}%
+    }
+}
+
+\input{sections/conclusiones}
+\input{sections/anexos}
+
+% lee los archivos bibs para las citas
+\xdef\bibfiles{}
+\foreach \k in {0, ...,99}{% chktex 11 chktex 1  chktex 26
+  \edef\FileName{./bib/bib\k}%     The % here are necessary to eliminate any
+    \IfFileExists{\FileName.bib}{%  spurious spaces that may get inserted
+\xdef\bibfiles{\FileName,\bibfiles}%       at these points
+    }
+}
+\StrGobbleRight{\bibfiles}{1}[\bibfiles_]
+
+% genera la bibliografía
+%\bibliographystyle{apalike}%
+\bibliographystyle{plainnat}
+\bibliography{\bibfiles_}
+\end{document}
