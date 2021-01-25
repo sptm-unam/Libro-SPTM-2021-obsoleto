@@ -3,9 +3,12 @@
 %Hay algunos errores en el formato, esperamos que Emilio los corrija, please! 
 
 \documentclass[12pt, spanish, oneside]{book} %twocolumn
-\usepackage[spanish]{babel}
+
+\usepackage[spanish,activeacute]{babel}
 \selectlanguage{spanish}
 \usepackage[utf8]{inputenc}
+
+
 %\usepackage{minted} %para introducir codigo
 \usepackage{	}% subsubsecciones
 \usepackage{hyperref}
@@ -25,10 +28,12 @@
 	bottom=2.5cm, % Bottom margin
 	%showframe, % Uncomment to show how the type block is set on the page
 }
-\usepackage{fancyhdr}
-\pagestyle{fancy}
+
 \usepackage{tikz} % para iteraciones
 \usepackage{xstring}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
 \fancyhf{}
 \fancyfoot[LE,RO]{\thepage}
 %\fancyfoot[LO,RE]{User's Guide \copyright\ Copyright Information}
@@ -54,7 +59,6 @@
 
 %para imagenes
 \usepackage{graphicx}
-
 \title{Propuesta inicial de la formación del cap Performatividad de la(s) máquina(s) + Código + IA + Live Coding + Agencialidad + Composición algoritmica + Música generativa}  
 \graphicspath{ {./images/} } % path de imagenes
 \begin{document}
@@ -66,10 +70,10 @@
 \input{sections/introduccion}
 
 % lee las secciones desde una carpeta y los incluye en orden numérico
-\foreach \i in {0, ...,99} {% chktex 11 chktex 1  chktex 26
-    \edef\FileName{./sections/subCap\i.tex}%     The % here are necessary to eliminate any
+\foreach \k in {0, ...,99} {% chktex 11 chktex 1  chktex 26
+    \edef\FileName{./sections/subCap\k.tex}%     The % here are necessary to eliminate any
     \IfFileExists{\FileName}{%  spurious spaces that may get inserted
-\input{\FileName}%       at these points
+\input{\FileName}%
     }
 }
 
@@ -78,8 +82,8 @@
 
 % lee los archivos bibs para las citas
 \xdef\bibfiles{}
-\foreach \i in {0, ...,99}{% chktex 11 chktex 1  chktex 26
-  \edef\FileName{./bib/bib\i}%     The % here are necessary to eliminate any
+\foreach \k in {0, ...,99}{% chktex 11 chktex 1  chktex 26
+  \edef\FileName{./bib/bib\k}%     The % here are necessary to eliminate any
     \IfFileExists{\FileName.bib}{%  spurious spaces that may get inserted
 \xdef\bibfiles{\FileName,\bibfiles}%       at these points
     }
