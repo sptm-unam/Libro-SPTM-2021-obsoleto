@@ -61,13 +61,13 @@
 \maketitle
 
 \maketitle
-\tableofcontents
+%\tableofcontents
 
 \input{sections/introduccion}
 
 % lee las secciones desde una carpeta y los incluye en orden numérico
-\foreach \i in {0, ...,99} {% chktex 11 chktex 1  chktex 26
-    \edef\FileName{./sections/subCap\i.tex}%     The % here are necessary to eliminate any
+\foreach \x in {0, ...,99} {% chktex 11 chktex 1  chktex 26
+    \edef\FileName{./sections/subCap\x.tex}%     The % here are necessary to eliminate any
     \IfFileExists{\FileName}{%  spurious spaces that may get inserted
 \input{\FileName}%       at these points
     }
