@@ -2,12 +2,16 @@
 
 # Performatividad de la(s) máquina(s) + Código + IA + Live Coding + Agencialidad
 
-Módulo formado por: Emilio, Aaron, Marianne, Hernani, Iván, Pablo.
+Emilio, Aaron, Marianne, Hernani, Dorian, Iván, Pablo.
 
 # Capítulos
 
-Introducción: relación de varias pëacticas computacionales.
+Introducción: relación de varias prácticas computacionales.
 
-Algoritmicidad y código en las práscticas musicales.
+Algoritmicidad y código en las prácticas musicales.
 
 PiranhaLab: reporte de taller sobre diversas tecnologías de web.
+
+# Descripción
+
+Las prácticas musicales computacionales involucran distintas perspectivas para su estudio. Por ejemplo, desde el software utilizado, las técnicas de creación o el material que las conforma.
