@@ -1,3 +1,15 @@
+**ARCHIVADO**
+
+Este repositorio fue una propuesta de flujo de trabajo para la escritura colectiva del libro 
+[Algoritmos Arruinados: Perspectivas situadas de tecnología musical](https://www.repositorio.fam.unam.mx/handle/123456789/139).
+
+El pleno del SPTM decidió mudar el flujo de trabajo a [CryptPad]() por las siguientes razones:
+
+* Utilizar un formato más familiar para la mayoría de integrantes, reduciendo la curva de aprendizaje.
+* Conocer una plataforma alternativa a google docs para la creación de documentos colaborativos.
+
+Este repositorio queda archivado de manera definitiva para servir de referencia histórica.
+
 # Propuesta
 
 Repositorio para trabajar en el libro del Seminario Permanente de Tecnología Musical.
